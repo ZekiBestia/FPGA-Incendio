@@ -1,0 +1,9 @@
+|Controlador_Incendios
+clk => ~NO_FANOUT~
+rst => process_0.IN0
+sensor_humo => process_0.IN1
+activar_led << process_0.DB_MAX_OUTPUT_PORT_TYPE
+activar_bomba << process_0.DB_MAX_OUTPUT_PORT_TYPE
+activar_alarma << process_0.DB_MAX_OUTPUT_PORT_TYPE
+
+
